@@ -30,28 +30,28 @@ Technologies Used
 
 Key Concepts Implemented
 
-Dynamic memory management using malloc() and free()
-Singly Linked List operations (insertion, deletion, traversal, reversal, sorting)
-Automatic unique Roll Number generation
-File I/O for data persistence (binary format)
-Menu-driven interface with sub-menus
-Handling duplicate names during search/delete/modify
-Modular code organization
+*  Dynamic memory management using malloc() and free()
+*  Singly Linked List operations (insertion, deletion, traversal, reversal, sorting)
+*  Automatic unique Roll Number generation
+*  File I/O for data persistence (binary format)
+*  Menu-driven interface with sub-menus
+*  Handling duplicate names during search/delete/modify
+*  Modular code organization
 
 
 Project Structure
 textSTUDENT-RECORD/
-├── main.c         # Main program with menu loop
-├── add.c          # Student addition logic
-├── delete.c       # Delete functionality
-├── delall.c       # Delete all records (Initialize)
-├── modify.c       # Modify student records
-├── load.c         # Load from student.dat
-├── exit.c         # Exit and save handling
-├── header.h       # Common structures and function declarations
-├── makefile       # Build automation
-├── student.dat    # Database file (generated)
-└── README.md
+*├── main.c         # Main program with menu loop
+*├── add.c          # Student addition logic
+*├── delete.c       # Delete functionality
+*├── delall.c       # Delete all records (Initialize)
+*├── modify.c       # Modify student records
+*├── load.c         # Load from student.dat
+*├── exit.c         # Exit and save handling
+*├── header.h       # Common structures and function declarations
+*├── makefile       # Build automation
+*├── student.dat    # Database file (generated)
+*└── README.md
 
 The Application Supports the Following Operations
 
