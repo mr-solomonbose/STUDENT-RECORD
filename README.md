@@ -41,16 +41,16 @@ Modular code organization
 
 Project Structure
 textSTUDENT-RECORD/
-├── main.c              # Main program with menu loop
-├── add.c               # Student addition logic
-├── delete.c            # Delete functionality
-├── delall.c            # Delete all records (Initialize)
-├── modify.c            # Modify student records
-├── load.c              # Load from student.dat
-├── exit.c              # Exit and save handling
-├── header.h            # Common structures and function declarations
-├── makefile            # Build automation
-├── student.dat         # Database file (generated)
+├── main.c         # Main program with menu loop
+├── add.c          # Student addition logic
+├── delete.c       # Delete functionality
+├── delall.c       # Delete all records (Initialize)
+├── modify.c       # Modify student records
+├── load.c         # Load from student.dat
+├── exit.c         # Exit and save handling
+├── header.h       # Common structures and function declarations
+├── makefile       # Build automation
+├── student.dat    # Database file (generated)
 └── README.md
 
 The Application Supports the Following Operations
